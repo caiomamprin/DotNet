@@ -1,0 +1,17 @@
+C:\Users\Caio\source\repos\NovaApi\NovaApi\bin\Debug\netcoreapp2.1\NovoApi.Models.dll
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.csprojAssemblyReference.cache
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.csproj.CoreCompileInputs.cache
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.RazorAssemblyInfo.cache
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.RazorAssemblyInfo.cs
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.AssemblyInfoInputs.cache
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.AssemblyInfo.cs
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.RazorTargetAssemblyInfo.cache
+C:\Users\Caio\source\repos\NovaApi\NovaApi\bin\Debug\netcoreapp2.1\NovaApi.deps.json
+C:\Users\Caio\source\repos\NovaApi\NovaApi\bin\Debug\netcoreapp2.1\NovaApi.runtimeconfig.json
+C:\Users\Caio\source\repos\NovaApi\NovaApi\bin\Debug\netcoreapp2.1\NovaApi.runtimeconfig.dev.json
+C:\Users\Caio\source\repos\NovaApi\NovaApi\bin\Debug\netcoreapp2.1\NovaApi.dll
+C:\Users\Caio\source\repos\NovaApi\NovaApi\bin\Debug\netcoreapp2.1\NovaApi.pdb
+C:\Users\Caio\source\repos\NovaApi\NovaApi\bin\Debug\netcoreapp2.1\NovoApi.Models.pdb
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.csproj.CopyComplete
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.dll
+C:\Users\Caio\source\repos\NovaApi\NovaApi\obj\Debug\netcoreapp2.1\NovaApi.pdb

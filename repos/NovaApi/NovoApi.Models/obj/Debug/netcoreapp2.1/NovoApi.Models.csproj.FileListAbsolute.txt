@@ -1,0 +1,9 @@
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\bin\Debug\netcoreapp2.1\NovoApi.Models.deps.json
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\bin\Debug\netcoreapp2.1\NovoApi.Models.dll
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\bin\Debug\netcoreapp2.1\NovoApi.Models.pdb
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\obj\Debug\netcoreapp2.1\NovoApi.Models.csprojAssemblyReference.cache
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\obj\Debug\netcoreapp2.1\NovoApi.Models.csproj.CoreCompileInputs.cache
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\obj\Debug\netcoreapp2.1\NovoApi.Models.AssemblyInfoInputs.cache
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\obj\Debug\netcoreapp2.1\NovoApi.Models.AssemblyInfo.cs
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\obj\Debug\netcoreapp2.1\NovoApi.Models.dll
+C:\Users\Caio\source\repos\NovaApi\NovoApi.Models\obj\Debug\netcoreapp2.1\NovoApi.Models.pdb

@@ -1,0 +1,5 @@
+﻿Exemplo de um token válido:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc3VhcmlvSWQiOiIyNCIsIkVtcHJlc2FJZCI6IjIiLCJBbWJpZW50ZSI6IkgiLCJuYmYiOjE1MjA1MjU2NTEsImV4cCI6MTUzMTMyNTY1MSwiaWF0IjoxNTIwNTI1NjUxfQ.Z09GybN_JyzRz3xqToTSiKz4vX81gsb-xz3dAuWbnhg
+
+Link com todas as possibilidades de Consistências. Data Annotations
+https://msdn.microsoft.com/pt-br/library/system.componentmodel.dataannotations(v=vs.110).aspx

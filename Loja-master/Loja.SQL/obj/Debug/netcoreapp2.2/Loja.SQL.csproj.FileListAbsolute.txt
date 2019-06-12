@@ -1,0 +1,14 @@
+C:\Users\Alunos\Loja-master\Loja.SQL\bin\Debug\netcoreapp2.2\Loja.SQL.deps.json
+C:\Users\Alunos\Loja-master\Loja.SQL\bin\Debug\netcoreapp2.2\Loja.SQL.dll
+C:\Users\Alunos\Loja-master\Loja.SQL\obj\Debug\netcoreapp2.2\Loja.SQL.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Loja-master\Loja.SQL\obj\Debug\netcoreapp2.2\Loja.SQL.AssemblyInfoInputs.cache
+C:\Users\Alunos\Loja-master\Loja.SQL\obj\Debug\netcoreapp2.2\Loja.SQL.AssemblyInfo.cs
+C:\Users\Alunos\Loja-master\Loja.SQL\obj\Debug\netcoreapp2.2\Loja.SQL.csprojAssemblyReference.cache
+C:\Users\Alunos\Loja-master\Loja.SQL\bin\Debug\netcoreapp2.2\Loja.SQL.runtimeconfig.json
+C:\Users\Alunos\Loja-master\Loja.SQL\bin\Debug\netcoreapp2.2\Loja.SQL.runtimeconfig.dev.json
+C:\Users\Alunos\Loja-master\Loja.SQL\bin\Debug\netcoreapp2.2\Loja.SQL.pdb
+C:\Users\Alunos\Loja-master\Loja.SQL\bin\Debug\netcoreapp2.2\Loja.Domain.dll
+C:\Users\Alunos\Loja-master\Loja.SQL\bin\Debug\netcoreapp2.2\Loja.Domain.pdb
+C:\Users\Alunos\Loja-master\Loja.SQL\obj\Debug\netcoreapp2.2\Loja.SQL.csproj.CopyComplete
+C:\Users\Alunos\Loja-master\Loja.SQL\obj\Debug\netcoreapp2.2\Loja.SQL.dll
+C:\Users\Alunos\Loja-master\Loja.SQL\obj\Debug\netcoreapp2.2\Loja.SQL.pdb
