@@ -1,0 +1,6 @@
+D:\Devmedia\C# 5\Fontes\First Sample\Strings\bin\Debug\Strings.exe.config
+D:\Devmedia\C# 5\Fontes\First Sample\Strings\bin\Debug\Strings.exe
+D:\Devmedia\C# 5\Fontes\First Sample\Strings\bin\Debug\Strings.pdb
+D:\Devmedia\C# 5\Fontes\First Sample\Strings\obj\Debug\Strings.exe
+D:\Devmedia\C# 5\Fontes\First Sample\Strings\obj\Debug\Strings.pdb
+D:\Devmedia\C# 5\Fontes\First Sample\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache

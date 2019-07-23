@@ -1,0 +1,12 @@
+D:\Devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.exe.config
+D:\Devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.exe
+D:\Devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.pdb
+D:\Devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.csprojResolveAssemblyReference.cache
+D:\Devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.exe
+D:\Devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.pdb
+H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.exe.config
+H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.exe
+H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.pdb
+H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.exe
+H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.pdb
+H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.csprojResolveAssemblyReference.cache

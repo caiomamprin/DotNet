@@ -1,0 +1,6 @@
+D:\Devmedia\C# 5\Fontes\First Sample\AnonymousTypes\bin\Debug\AnonymousTypes.exe.config
+D:\Devmedia\C# 5\Fontes\First Sample\AnonymousTypes\bin\Debug\AnonymousTypes.exe
+D:\Devmedia\C# 5\Fontes\First Sample\AnonymousTypes\bin\Debug\AnonymousTypes.pdb
+D:\Devmedia\C# 5\Fontes\First Sample\AnonymousTypes\obj\Debug\AnonymousTypes.csprojResolveAssemblyReference.cache
+D:\Devmedia\C# 5\Fontes\First Sample\AnonymousTypes\obj\Debug\AnonymousTypes.exe
+D:\Devmedia\C# 5\Fontes\First Sample\AnonymousTypes\obj\Debug\AnonymousTypes.pdb

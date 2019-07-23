@@ -1,0 +1,6 @@
+D:\Devmedia\C# 5\Fontes\First Sample\Boxing\bin\Debug\Boxing.exe.config
+D:\Devmedia\C# 5\Fontes\First Sample\Boxing\bin\Debug\Boxing.exe
+D:\Devmedia\C# 5\Fontes\First Sample\Boxing\bin\Debug\Boxing.pdb
+D:\Devmedia\C# 5\Fontes\First Sample\Boxing\obj\Debug\Boxing.csprojResolveAssemblyReference.cache
+D:\Devmedia\C# 5\Fontes\First Sample\Boxing\obj\Debug\Boxing.exe
+D:\Devmedia\C# 5\Fontes\First Sample\Boxing\obj\Debug\Boxing.pdb
