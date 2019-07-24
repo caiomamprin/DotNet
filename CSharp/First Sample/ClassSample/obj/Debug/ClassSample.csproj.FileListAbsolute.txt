@@ -10,3 +10,10 @@ H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.pdb
 H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.exe
 H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\bin\Debug\ClassSample.pdb
 H:\Pedro\devmedia\C# 5\Fontes\First Sample\ClassSample\obj\Debug\ClassSample.csprojResolveAssemblyReference.cache
+C:\Estudo\DotNet\CSharp\First Sample\ClassSample\bin\Debug\ClassSample.exe.config
+C:\Estudo\DotNet\CSharp\First Sample\ClassSample\bin\Debug\ClassSample.exe
+C:\Estudo\DotNet\CSharp\First Sample\ClassSample\bin\Debug\ClassSample.pdb
+C:\Estudo\DotNet\CSharp\First Sample\ClassSample\obj\Debug\ClassSample.csprojAssemblyReference.cache
+C:\Estudo\DotNet\CSharp\First Sample\ClassSample\obj\Debug\ClassSample.csproj.CoreCompileInputs.cache
+C:\Estudo\DotNet\CSharp\First Sample\ClassSample\obj\Debug\ClassSample.exe
+C:\Estudo\DotNet\CSharp\First Sample\ClassSample\obj\Debug\ClassSample.pdb

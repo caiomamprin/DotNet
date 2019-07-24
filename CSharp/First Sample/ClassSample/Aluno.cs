@@ -72,6 +72,13 @@ namespace ClassSample
             this.idade = 21;
         }
 
+
+        public int BirthDay()
+        {
+            return this.Idade = Idade + 1;
+        }
+
+        //Destructor
         ~Aluno() {
             Console.WriteLine("Aluno Destructor");
         }
