@@ -84,7 +84,9 @@ namespace Operators
             int v1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Valor 2: ");
             int v2 = int.Parse(Console.ReadLine());
-            //Aritmetics
+
+
+            //Operators Aritmetics
             Console.WriteLine();
             Console.WriteLine("Soma: " + Convert.ToString(v1 + v2));
             Console.WriteLine("Subtração: " + Convert.ToString(v1 - v2));
@@ -92,7 +94,7 @@ namespace Operators
             Console.WriteLine("Divisão: " + Convert.ToString(v1 / v2));
             Console.WriteLine();
 
-            //Logics
+            //Operators Logics
             if (v1 > 0 && v2 > 0)
                 Console.WriteLine("Valores v1 e v2 Maiores que Zero");
 
