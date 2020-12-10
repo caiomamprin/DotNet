@@ -1,0 +1,97 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CursoCSharp.OO_OrientacaoAObjetos
+{
+    class Heranca
+    {
+
+        public class Carro
+        {
+            protected readonly int VelocidadeMaxima;
+            int VelocidadeAtual;
+
+            public Carro(int velocidadeMaxima)
+            {
+                VelocidadeMaxima = velocidadeMaxima;
+            }
+
+            protected int AlterarVelocidade(int delta)
+            {
+                int novaVelocidade = VelocidadeAtual + delta;
+                if(novaVelocidade < 0)
+                {
+                    VelocidadeAtual = 0;
+                }else if(novaVelocidade > VelocidadeMaxima)
+                {
+                    VelocidadeAtual = VelocidadeMaxima;
+                }
+                else
+                {
+                    VelocidadeAtual = novaVelocidade;
+                }
+
+                return VelocidadeAtual;
+            }
+
+            public virtual int Acelerar()
+            {
+                return AlterarVelocidade(5);
+            }
+
+            public int Frear()
+            {
+                return AlterarVelocidade(-5);
+            }
+
+        }
+
+        public class Fiesta : Carro
+        {
+            //Por ter o cosntrutor na classe Carro, eu crio o construtor base da classe carro,  passando o 200 da velocidade maxima;
+            public Fiesta() : base(200)
+            {
+
+            }
+        }
+
+        public class Civic : Carro
+        {
+            public Civic() : base(280)
+            {
+
+            }
+
+            public override int Acelerar()
+            {
+                return AlterarVelocidade(15); 
+            }
+
+            //OCULTA O MEDOTO DA CLASSE PAI
+            public new int Frear()
+            {
+                return AlterarVelocidade(-15);
+            }
+
+        }
+
+        public static void Executar()
+        {
+            Fiesta carro1 = new Fiesta();
+            Console.WriteLine("Fiesta ...");
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Frear());
+            Console.WriteLine(carro1.Frear());
+
+            Civic carro2 = new Civic();
+            Console.WriteLine("Fiesta ...");
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Frear());
+            Console.WriteLine(carro2.Frear());
+
+        }
+    }
+}
