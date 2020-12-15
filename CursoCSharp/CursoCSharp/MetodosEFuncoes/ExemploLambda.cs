@@ -24,8 +24,10 @@ namespace CursoCSharp.MetodosEFuncoes
             Console.WriteLine(jogarDado());
 
             Func<int,int,int,String> convertData =  (dia, mes, ano) => {
-                return "0{D2}"
+                return String.Format("{0:D2}/{1:D2}/{2:D4}", dia, mes, ano);
             };
+
+            Console.WriteLine(convertData(26,06,1992));
         
         }
 
