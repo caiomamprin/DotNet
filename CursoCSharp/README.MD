@@ -13,7 +13,6 @@ Topics covered in the course:
 - Object-oriented programming;
 - Methods and Functions;
 - Exceptions;
-- API.
 
 
 Access the link for more details.
