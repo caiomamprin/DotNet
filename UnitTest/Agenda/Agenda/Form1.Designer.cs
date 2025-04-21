@@ -1,4 +1,7 @@
-﻿namespace Agenda
+﻿
+using System.Data.SqlClient;
+
+namespace Agenda
 {
     partial class Form1
     {
@@ -93,6 +96,26 @@
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        [Obsolete]
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nome = txtNovoContato.Text;
+            txtContatoSalvo.Text = nome;
+
+            string strConnection = @"Data Source =.\sqlexpress;Initial Catalog=Agenda;Integrated Security=True;";
+
+            SqlConnection con = new SqlConnection(strConnection);
+            con.Open();
+
+            string sql = String.Format("insert into Contato (Id,Nome) values ('{0}', '{1}');", Guid.NewGuid().ToString(), nome);
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
         }
 
         #endregion
