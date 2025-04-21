@@ -28,12 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            lblNovoContato = new Label();
+            lblContatoSalvo = new Label();
+            txtNovoContato = new TextBox();
+            txtContatoSalvo = new TextBox();
+            btnSalvar = new Button();
+            SuspendLayout();
+            // 
+            // lblNovoContato
+            // 
+            lblNovoContato.AutoSize = true;
+            lblNovoContato.Location = new Point(12, 9);
+            lblNovoContato.Name = "lblNovoContato";
+            lblNovoContato.Size = new Size(82, 15);
+            lblNovoContato.TabIndex = 0;
+            lblNovoContato.Text = "Novo Contato";
+            lblNovoContato.Click += label1_Click;
+            // 
+            // lblContatoSalvo
+            // 
+            lblContatoSalvo.AutoSize = true;
+            lblContatoSalvo.Location = new Point(12, 53);
+            lblContatoSalvo.Name = "lblContatoSalvo";
+            lblContatoSalvo.Size = new Size(81, 15);
+            lblContatoSalvo.TabIndex = 1;
+            lblContatoSalvo.Text = "Contato Salvo";
+            lblContatoSalvo.Click += label2_Click;
+            // 
+            // txtNovoContato
+            // 
+            txtNovoContato.Location = new Point(12, 27);
+            txtNovoContato.Name = "txtNovoContato";
+            txtNovoContato.Size = new Size(428, 23);
+            txtNovoContato.TabIndex = 2;
+            // 
+            // txtContatoSalvo
+            // 
+            txtContatoSalvo.Location = new Point(12, 71);
+            txtContatoSalvo.Name = "txtContatoSalvo";
+            txtContatoSalvo.Size = new Size(428, 23);
+            txtContatoSalvo.TabIndex = 3;
+            // 
+            // btnSalvar
+            // 
+            btnSalvar.Location = new Point(365, 110);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(75, 23);
+            btnSalvar.TabIndex = 4;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += button1_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnSalvar);
+            Controls.Add(txtContatoSalvo);
+            Controls.Add(txtNovoContato);
+            Controls.Add(lblContatoSalvo);
+            Controls.Add(lblNovoContato);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblNovoContato;
+        private Label lblContatoSalvo;
+        private TextBox txtNovoContato;
+        private TextBox txtContatoSalvo;
+        private Button btnSalvar;
     }
 }
