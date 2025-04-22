@@ -102,10 +102,10 @@ namespace Agenda
         private void button1_Click(object sender, EventArgs e)
         {
             string nome = txtNovoContato.Text;
+            txtContatoSalvo.Text = nome;
 
             string strConnection = @"Data Source =.\sqlexpress;Initial Catalog=Agenda;Integrated Security=True;";
             
-            txtContatoSalvo.Text = nome;
             string id = Guid.NewGuid().ToString();
 
             SqlConnection con = new SqlConnection(strConnection);

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaUIDesktop", "Agenda\AgendaUIDesktop.csproj", "{7BBBFDA9-61EA-4566-88FF-FA17E6787D66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.DAL", "Agenda.DAL\Agenda.DAL.csproj", "{9AC1B2B6-8D9D-42E8-97FF-95B492C7CFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.DAL.Test", "Agenda.DAL.Test\Agenda.DAL.Test.csproj", "{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7BBBFDA9-61EA-4566-88FF-FA17E6787D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BBBFDA9-61EA-4566-88FF-FA17E6787D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BBBFDA9-61EA-4566-88FF-FA17E6787D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC1B2B6-8D9D-42E8-97FF-95B492C7CFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC1B2B6-8D9D-42E8-97FF-95B492C7CFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC1B2B6-8D9D-42E8-97FF-95B492C7CFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC1B2B6-8D9D-42E8-97FF-95B492C7CFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
