@@ -32,7 +32,12 @@ namespace Agenda.DAL.Test
         [Test]
         public void ObterContatoTest()
         {
-            _contatos.ObterContato(id);
+            var id = Guid.NewGuid().ToString();
+            var nome = "Duda";
+            _contatos.Adicionar(id, nome);
+            string nomeResultado = _contatos.ObterContato(id);
+            Assert.AreEqual(nome, nomeResultado);
+
         }
 
         [TearDown]
