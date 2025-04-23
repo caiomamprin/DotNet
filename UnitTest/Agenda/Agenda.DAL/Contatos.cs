@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 using Agenda.Domain;
 
@@ -51,6 +52,32 @@ namespace Agenda.DAL
 
             return contato;
             
+        }
+
+        public List<Contato> ObterTodos()
+        {
+            var contatos = new List<Contato>();
+            _con.Open();
+
+            var sql = String.Format("SELECT Id, Nome FROM Contato;");
+
+
+            SqlCommand cmd = new SqlCommand(sql, _con);
+
+            var sqlDataReader = cmd.ExecuteReader();
+            while (sqlDataReader.Read())
+            {
+                var contato = new Contato()
+                {
+                    Id = Guid.Parse(sqlDataReader["Id"].ToString()),
+                    Nome = sqlDataReader["Nome"].ToString(),
+                };
+
+                contatos.Add(contato);
+            }
+
+            return contatos;
+
         }
     }
 }
