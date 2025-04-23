@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.DAL", "Agenda.DAL\Ag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.DAL.Test", "Agenda.DAL.Test\Agenda.DAL.Test.csproj", "{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda.Domain", "Agenda.Domain\Agenda.Domain.csproj", "{A7B02C71-AD8A-48C0-B454-3EB471D7EA2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F8446CD-038E-49D1-A13C-6552E0DCFD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B02C71-AD8A-48C0-B454-3EB471D7EA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B02C71-AD8A-48C0-B454-3EB471D7EA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B02C71-AD8A-48C0-B454-3EB471D7EA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B02C71-AD8A-48C0-B454-3EB471D7EA2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

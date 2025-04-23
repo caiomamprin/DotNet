@@ -56,6 +56,10 @@
       <Project>{9ac1b2b6-8d9d-42e8-97ff-95b492c7cfd7}</Project>
       <Name>Agenda.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Agenda.Domain\Agenda.Domain.csproj">
+      <Project>{a7b02c71-ad8a-48c0-b454-3eb471d7ea2b}</Project>
+      <Name>Agenda.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using Agenda.Domain;
 
 
 namespace Agenda.DAL
@@ -15,12 +16,12 @@ namespace Agenda.DAL
             _con = new SqlConnection(_strConnection);
         }
 
-        public void Adicionar(string id, string nome)
+        public void Adicionar(Contato contato)
         {
             
             _con.Open();
 
-            var sql = String.Format("insert into Contato (Id,Nome) values ('{0}', '{1}');", id, nome);
+            var sql = String.Format("insert into Contato (Id,Nome) values ('{0}', '{1}');", contato.Id, contato.Nome);
 
             SqlCommand cmd = new SqlCommand(sql, _con);
 
@@ -28,15 +29,27 @@ namespace Agenda.DAL
             _con.Close();
         }
 
-        public string ObterContato(object id)
+        public Contato Obter(Guid id)
         {
 
             _con.Open();
-            var sql = String.Format("SELECT Nome FROM Contato where Id = '{0}';", id);
+
+            var sql = String.Format("SELECT Id, Nome FROM Contato where Id = '{0}';", id);
+            
 
             SqlCommand cmd = new SqlCommand(sql, _con);
 
-            return  cmd.ExecuteScalar().ToString();
+            var sqlDataReader = cmd.ExecuteReader();
+            sqlDataReader.Read();
+
+            var contato = new Contato()
+            {
+                Id = Guid.Parse(sqlDataReader["Id"].ToString()),
+                Nome = sqlDataReader["Nome"].ToString(),
+
+            };
+
+            return contato;
             
         }
     }

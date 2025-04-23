@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
+using Agenda.Domain;
+
 
 namespace Agenda.DAL.Test
 {
@@ -20,11 +18,14 @@ namespace Agenda.DAL.Test
 
         [Test]
         public void AdicionarContatoTest() 
-        { 
-            var id = Guid.NewGuid().ToString();
-            var nome = "Duda";
+        {
+            var contato = new Contato()
+            {
+                Id = Guid.NewGuid(),
+                Nome = "Duda"
+            };
 
-            _contatos.Adicionar(id, nome);
+            _contatos.Adicionar(contato);
 
             Assert.True(true);
         }
@@ -32,11 +33,18 @@ namespace Agenda.DAL.Test
         [Test]
         public void ObterContatoTest()
         {
-            var id = Guid.NewGuid().ToString();
-            var nome = "Duda";
-            _contatos.Adicionar(id, nome);
-            string nomeResultado = _contatos.ObterContato(id);
-            Assert.AreEqual(nome, nomeResultado);
+            Contato contatoResultado;
+            var contato = new Contato()
+            {
+                Id = Guid.NewGuid(),
+                Nome = "Duda"
+            };
+
+            _contatos.Adicionar(contato);
+            contatoResultado = _contatos.Obter(contato.Id);
+            
+            Assert.AreEqual(contato.Id, contatoResultado.Id);
+            Assert.AreEqual(contato.Nome, contatoResultado.Nome);
 
         }
 
