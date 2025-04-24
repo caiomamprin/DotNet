@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Linq;
 using Agenda.Domain;
+using Dapper;
 
 
 namespace Agenda.DAL
@@ -62,25 +64,26 @@ namespace Agenda.DAL
             var contatos = new List<Contato>();
             using (var con = new SqlConnection(_strConnection))
             {
-                contatos = new List<Contato>();
-                con.Open();
+                con.Query<Contato>("SELECT Id, Nome FROM Contato").ToList();
+                //contatos = new List<Contato>();
+                //con.Open();
 
-                var sql = String.Format("SELECT Id, Nome FROM Contato;");
+                //var sql = String.Format("SELECT Id, Nome FROM Contato;");
 
 
-                SqlCommand cmd = new SqlCommand(sql, con);
+                //SqlCommand cmd = new SqlCommand(sql, con);
 
-                var sqlDataReader = cmd.ExecuteReader();
-                while (sqlDataReader.Read())
-                {
-                    contato = new Contato()
-                    {
-                        Id = Guid.Parse(sqlDataReader["Id"].ToString()),
-                        Nome = sqlDataReader["Nome"].ToString(),
-                    };
+                //var sqlDataReader = cmd.ExecuteReader();
+                //while (sqlDataReader.Read())
+                //{
+                    //contato = new Contato()
+                    //{
+                        //Id = Guid.Parse(sqlDataReader["Id"].ToString()),
+                        //Nome = sqlDataReader["Nome"].ToString(),
+                    //};
 
-                    contatos.Add(contato);
-                }
+                    //contatos.Add(contato);
+                //}
             }
             return contatos;
 
