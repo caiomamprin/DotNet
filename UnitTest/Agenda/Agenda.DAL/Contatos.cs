@@ -60,30 +60,12 @@ namespace Agenda.DAL
 
         public List<Contato> ObterTodos()
         {
-            Contato contato;
+           
             var contatos = new List<Contato>();
             using (var con = new SqlConnection(_strConnection))
             {
-                con.Query<Contato>("SELECT Id, Nome FROM Contato").ToList();
-                //contatos = new List<Contato>();
-                //con.Open();
-
-                //var sql = String.Format("SELECT Id, Nome FROM Contato;");
-
-
-                //SqlCommand cmd = new SqlCommand(sql, con);
-
-                //var sqlDataReader = cmd.ExecuteReader();
-                //while (sqlDataReader.Read())
-                //{
-                    //contato = new Contato()
-                    //{
-                        //Id = Guid.Parse(sqlDataReader["Id"].ToString()),
-                        //Nome = sqlDataReader["Nome"].ToString(),
-                    //};
-
-                    //contatos.Add(contato);
-                //}
+                contatos = con.Query<Contato>("SELECT Id, Nome FROM Contato").ToList();
+            
             }
             return contatos;
 
